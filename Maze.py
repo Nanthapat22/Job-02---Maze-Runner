@@ -31,7 +31,7 @@ class Maze:
     def print_end(self):
         os.system("cls" if os.name == "nt" else "clear")
         print("\n\n\n")
-        print(">>>>> ยินดีด้วยครับ!!! <<<<<")
+        print(">>>>> Congratulations!!! <<<<<")
         print("\n\n\n")
 
     def move_up(self):
